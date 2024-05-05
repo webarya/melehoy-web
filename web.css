@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+
+nav .logo {
+    font-family: Arial;
+    color: #39A7FF;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a {
+    margin: 0 20px 0 0;
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: #39A7FF;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a button {
+    padding: 7px 19px;
+    border: 2px solid #39A7FF;
+    background-color: white;
+    border-radius: 20px;
+    color: #39A7FF;
+}
+
+nav ul li a button:hover {
+    background-color: #39A7FF;
+    color: white;
+}
+
+.home {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.isihome h1 {
+    margin-bottom: 50px;
+    font-size: 60px;
+    font-family: sans-serif;
+}
+
+.isihome p {
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+.about {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #39A7FF;
+    color: white;
+}
+
+.teksabout {
+    width: 500px;
+}
+
+.teksabout h1 {
+    margin-bottom: 30px;
+    font-family: sans-serif;
+}
+
+.teksabout p {
+    font-size: 19px;
+    font-family: Arial;
+}
+
+.skill {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.isi h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.foto {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+}
+
+.isi {
+    width: 100%;
+    height: 100vh;
+}
+
+.foto .skil1, .skil2, .skil3 {
+    background-color: #39A7FF;
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+}
+
+.foto .skil1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.foto .skil2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.foto .skil3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.work {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #39A7FF;
+}
+
+.fotowork img {
+    width: 200px;
+    margin: 20px;
+}
+
+.tekswork {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.fotowork {
+   text-align: center;
+}
+
+.tekswork h1 {
+    font-family: sans-serif;
+    color: white;
+    margin-top: 10px;
+}
+
+.tekswork p {
+    margin: 10px 0;
+    font-size: 19px;
+    color: white;
+    font-family: arial;
+}
+
+.isiwork {
+    width: 100%;
+    height: 80vh;
+}
+
+footer {
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    padding: 100px 0 0 0;
+    background-color: #39A7FF;
+    width: 100%;
+    height: 130vh;
+    text-align: center;
+}
+
+.kontak h1 {
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    font-size: 40px;
+}
+
+.kontak p {
+    font-size: 17px;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.infokontak {
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.formname {
+    width: 95%;
+    margin-top:20px ;
+    padding: 10px;
+    border: 1px white solid;
+    border-radius: 3px;
+}
+
+.formemail {
+    width: 95%;
+    margin-top:20px ;
+    padding: 10px;
+    border: 1px white solid;
+    border-radius: 3px;
+}
+
+.formtujuan {
+    width: 95%;
+    margin-top:20px ;
+    padding: 10px;
+    border: 1px white solid;
+    border-radius: 3px;
+}
+
+.pesan {
+    width: 95%;
+    margin-top:20px ;
+    padding: 10px;
+    border: 1px white solid;
+    border-radius: 3px;
+}
+
+.form button {
+    padding: 10px 38px;
+    background-color: #39A7FF;
+    border: 2px solid white;
+    border-radius: 20px;
+    color: white;
+    margin-top: 10px;
+}
+
+.form button:hover {
+    background-color: white;
+    color: #39A7FF;
+}
+
+@media only screen and (max-width: 600px) {
+    .work {
+        height: 180vh;
+    }
+
+    .isiwork {
+        margin-bottom: 200px;
+    }
+
+    .tekswork p {
+        font-size: 15px;
+    }
+
+    .teksabout {
+        font-size: 10px;
+        padding: 20px;
+    }
+
+    section {
+        height: 135vh;
+    }
+
+}
+
+
+
+
+
+
+
